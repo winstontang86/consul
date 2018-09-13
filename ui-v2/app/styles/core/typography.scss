@@ -49,7 +49,7 @@ th,
 %breadcrumbs a,
 %action-group a,
 %tab-nav,
-%with-tooltip::before {
+%tooltip-bubble {
   font-weight: $typo-weight-medium;
 }
 main label a[rel*='help'],
@@ -87,7 +87,7 @@ td {
   font-size: $typo-size-600;
 }
 th,
-%with-tooltip::before,
+%tooltip-bubble,
 %healthchecked-resource strong,
 %footer {
   font-size: $typo-size-700;

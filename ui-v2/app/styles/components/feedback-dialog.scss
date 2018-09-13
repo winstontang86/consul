@@ -2,3 +2,7 @@
 main .with-feedback {
   @extend %feedback-dialog-inline;
 }
+%feedback-dialog-inline .feedback-dialog-out {
+  @extend %blink-in-fade-out;
+  transition-delay: 3s;
+}
